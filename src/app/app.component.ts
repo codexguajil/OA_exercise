@@ -28,10 +28,6 @@ export class AppComponent {
     }
   ]
 
-  ngOnChange() {
-    console.log(this.items)
-  }
-
   addItem(e: any) {
     this.items.push({
       id: 1,
